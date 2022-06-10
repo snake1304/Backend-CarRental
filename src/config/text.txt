@@ -1,0 +1,72 @@
+INSERT INTO "Cars" ("id", "car_name", "car_description", "car_model_year", "car_brand", "color", "capacity", "luggage_storage", "status", "owner_id", "car_image", "car_price", "createdAt", "updatedAt") VALUES
+(1, 'Ducati Monster', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su', '2019', 'Ducati', 'Red', '2', '1', 1, 1, 'https://res.cloudinary.com/snake1304/image/upload/v1648370850/test/ztyjqffikdxvhhtxfful.png', 66, '1629160130', '1629160130'),
+(2, 'ducati scrambler', 'no des', '2020', 'Ducati', 'White', '2', '1', 1, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1648371144/test/kopau1j1jgaxbjyisjqm.png', 77, '1629160130', '1629160130'),
+(3, 'Ducati Panigale', 'no des', '2021', 'Ducati', 'White', '2', '1', 0, 1, 'https://res.cloudinary.com/snake1304/image/upload/v1647348945/test/fedt0snfmjjpdj6zmdkt.png', 88, '1629160130', '1629160130'),
+(4, 'Ducati Streetfighter V4', 'No des', '2020', 'Ducati', 'Red', '2', '1', 1, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1650977187/test/Euro-4-Streetfighter-V4-Red-MY20-Model-Preview-1050x650_x58rrl.png', 45, '1629160130', '1629160130'),
+(38, 'Ducati Xdiavel', 'No des', '2019', 'Ducati', 'Black', '2', '1', 1, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1652367488/test/XDiavel-S-MY18-Dark-01-Model-Preview-1050x650_fcder0.png', 51, '1629160130', '1629160130'),
+(53, 'Audi S8', 'No Description', '2019', 'Audi', 'Gray', '4', '2', 0, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1654672192/Car/audi-s8-middle_tuhw4c.png', 45, '1629160130', '1629160130'),
+(54, 'Audi RS2', 'No Description', '2018', 'Audi', 'Gray', '4', '2', 0, 1, 'https://res.cloudinary.com/snake1304/image/upload/v1654672192/Car/audi-rs2_fj008p.jpg', 30, '1629160130', '1629160130'),
+(55, 'Mercedes Benz AMG', 'No description', '2020', 'Mercedes', 'Gray', '4', '2', 0, 4, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/mercedes-benz-amg_rcjpvm.png', 40, '1629160130', '1629160130'),
+(56, 'Audi S4 2006', 'No desciption', '2006', 'Audi', 'Yellow', '4', '2', 0, 5, 'https://res.cloudinary.com/snake1304/image/upload/v1654672192/Car/audi-s4-2006_c1ftms.jpg', 25, '1629160130', '1629160130'),
+(57, 'Mercedes C250', 'No description', '2016', 'Mercedes', 'Red', '4', '2', 0, 6, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/mercedes-c250-designo-cardinal-red-metallic_cwuk5b.png', 25, '1629160130', '1629160130'),
+(58, 'Audi A8', 'No description', '2020', 'Audi', 'White', '4', '2', 0, 7, 'https://res.cloudinary.com/snake1304/image/upload/v1654672192/Car/audi-audi-a8_flcq74.png', 35, '1629160130', '1629160130'),
+(59, 'Mercedes Benz AMG GT', 'No description', '2021', 'Mercedes', 'Red', '4', '2', 0, 1, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/2021_mercedes_benz_amg_gt_qt3oyy.jpg', 29, '1629160130', '1629160130'),
+(60, 'Honda Civis 2017', 'No description', '2017', 'Honda', 'White', '4', '2', 1, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/2017-honda-civic-honda-civic_mzooz1.jpg', 20, '1629160130', '1629160130'),
+(61, 'Audi A7', 'No description', '2020', 'Audi', 'Black', '4', '2', 1, 4, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/audi-a7_ua1mnf.png', 37, '1629160130', '1629160130'),
+(62, 'Mercedes Benz E Class', 'No description', '2021', 'Mercedes', 'Black', '4', '2', 0, 5, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/mercedes-benz-e-class_vgkifu.png', 40, '1629160130', '1629160130'),
+(63, 'Audi RS7', 'No description', '2017', 'Audi', 'Red', '4', '2', 0, 6, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/transparent-audi-rs7_qgsyzi.png', 25, '1629160130', '1629160130'),
+(64, 'Mercedes AMG GT Beam', 'No Description', '2022', 'Mercedes', 'Yello', '4', '2', 0, 7, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/Mercedes-AMG-GT-Solarbeam-Car-PNG-Image_yrruhb.png', 40, '1629160130', '1629160130'),
+(65, 'BMW S1000R', 'No Description', '2018', 'BMW', 'Blue', '2', '1', 0, 4, 'https://res.cloudinary.com/snake1304/image/upload/v1654674949/Car/kisspng-exhaust-system-bmw-s1000rr-car-bmw-s1000rr-5b49d1b6b51931.8358830715315644707418_wtgtdj.jpg', 20, '1629160130', '1629160130'),
+(66, 'Honda Civis LS', 'No description', '2027', 'Honda', 'Gray', '4', '2', 0, 5, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/2016-honda-civic-lx-used-car-car-dealership-honda-compact-car-sedan-car_l3nsei.png', 25, '1629160130', '1629160130'),
+(67, 'Lexus LS', 'No description', '2019', 'Lexus', 'Gray', '4', '3', 1, 6, 'https://res.cloudinary.com/snake1304/image/upload/v1654672190/Car/mau-xe-lexus-lx-eminent-white-pearl_geka80.png', 30, '1629160130', '1629160130'),
+(68, 'Lexus RS 350', 'No description', '2020', 'Lexus', 'White', '4', '3', 0, 7, 'https://res.cloudinary.com/snake1304/image/upload/v1654672190/Car/lexus-rx-350-hd-png-download_ycpup2.png', 28, '1629160130', '1629160130'),
+(69, 'BMW GM30M', 'No description', '2016', 'BMW', 'Red', '2', '1', 0, 4, 'https://res.cloudinary.com/snake1304/image/upload/v1654672189/Car/bmw-g30m_d4lpdc.png', 20, '1629160130', '1629160130'),
+(70, 'Mercedes AMG SL63', 'No Des', '2022', 'Mercedes', 'Black', '4', '2', 1, 5, 'https://res.cloudinary.com/snake1304/image/upload/v1654672190/Car/black-mercedes-amg-sl63_jkxcu4.png', 45, '1629160130', '1629160130'),
+(71, 'Lexus LX570', 'No description', '2017', 'Lexus', 'White', '4', '2', 0, 7, 'https://res.cloudinary.com/snake1304/image/upload/v1654672189/Car/lexus-lx-570_gjxnut.png', 30, '1629160130', '1629160130'),
+(72, 'Mercedes BenzS Class 2012', 'No Description', '2012', 'Mercedes', 'Black', '4', '2', 0, 1, 'https://res.cloudinary.com/snake1304/image/upload/v1654672189/Car/Black_Mercedes_Benz_S_Class_2012_sq48he.png', 44, '1629160130', '1629160130'),
+(73, 'BMW X6 2018', 'No description', '2019', 'BMW', 'White', '4', '2', 0, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1654674718/Car/purepng.com-bmwbmwcarluxurious-carbmw-cars-1701527416205muxoj_sgcf7w.png', 33, '1629160130', '1629160130'),
+(74, 'BMW X6 2009', 'no description', '2009', 'BMW', 'White', '4', '2', 1, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1654672191/Car/2017-honda-civic-honda-civic_mzooz1.jpg', 27, '1629160130', '1629160130'),
+(75, 'Honda Civis 2007', 'No des', '2007', 'Honda', 'Red', '4', '3', 1, 6, 'https://res.cloudinary.com/snake1304/image/upload/v1654672188/Car/honda-civic-2017_brolmp.png', 28, '1629160130', '1629160130'),
+(76, 'BMW S6', 'No description', '2009', 'BMW', 'Blue', '4', '2', 0, 7, 'https://res.cloudinary.com/snake1304/image/upload/v1654672188/Car/bmw-blue-s6_rsodol.jpg', 30, '1629160130', '1629160130'),
+(77, 'Honda Civis S6', 'no des', '2010', 'Honda', 'Blue', '4', '2', 0, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1654672188/Car/honda-sivic-transparent-2018_ew4gry.png', 24, '1629160130', '1629160130'),
+(78, 'BMW I8', 'no des', '2018', 'BMW', 'Red', '4', '1', 0, 5, 'https://res.cloudinary.com/snake1304/image/upload/v1654672188/Car/car-bmw-i8_yhzbws.jpg', 50, '1629160130', '1629160130'),
+(79, 'BMW R9T', 'no des', '2018', 'BMW', 'Black', '2', '1', 0, 2, 'https://res.cloudinary.com/snake1304/image/upload/v1654672188/Car/bmw-r-ninet_f0visz.jpg', 30, '1629160130', '1629160130'),
+(80, 'BMW R1200R', 'no des', '2017', 'BMW', 'Black', '2', '1', 0, 6, 'https://res.cloudinary.com/snake1304/image/upload/v1654672188/Car/bmw-r1200r-car-bmw-r1200gs_ak6te2.png', 28, '1629160130', '1629160130'),
+(81, 'Lexus s7', 'no des', '2019', 'Lexus', 'Blue', '4', '2', 1, 4, 'https://res.cloudinary.com/snake1304/image/upload/v1654672188/Car/blue-lexus-png-background-image-lexus-nx-vs_bfwipv.jpg', 25, '1629160130', '1629160130'),
+(82, 'BMW compact 2019', 'no des ', '2019', 'BMW', 'White', '4', '2', 0, 1, 'https://res.cloudinary.com/snake1304/image/upload/v1654674718/Car/purepng.com-bmwbmwcarluxurious-carbmw-cars-1701527416205muxoj_sgcf7w.png', 40, '1629160130', '1629160130');
+
+
+
+
+
+
+INSERT INTO "Locations" ("id", "location_name", "location_rental", "location_return", "createdAt", "updatedAt") VALUES
+(1, 'Thanh pho Ho Chi Minh', '961 Hau Giang, Phuong 11, Quan 6', '613 Ten Lua, Phuong 8, Quan Binh Tan', '1629160130', '1629160130'),
+(2, 'TP Cao lanh', '111 Nguyen Van Linh, Phuong 14', '38 An Suong, Phuong 3', '1629160130', '1629160130'),
+(3, 'Da Lat', '166 Ngoc Thanh, Phuong 12', 'Duong so 13, Nguyen Tat Thanh', '1629160130', '1629160130'),
+(4, 'Vung Tau', 'So 19, Duong so 14, Phuong Tan Thanh', 'So 3, Duong Tan Ky, Phuong 8', '1629160130', '1629160130'),
+(11, 'Nha Trang', 'So 8, Pham Ngoc Thach, Phuong 1', 'So 19, Nguyen Van An, Phuong 5', '1629160130', '1629160130'),
+(12, 'Ha Noi', '132 An Duong Vuong, Dong Da', '150 An Duong Vuong, Dong Da', '1629160130', '1629160130');
+
+
+
+
+INSERT INTO "Owners" ("id", "owner_name", "owner_address", "location_id", "createdAt", "updatedAt") VALUES
+(1, 'Snake', 'DT', 2, '1629160130', '1629160130'),
+(2, 'Minh Minh', 'TP HCM', 1, '1629160130', '1629160130'),
+(4, 'CChien', 'Nha Trang', 11, '1629160130', '1629160130'),
+(5, 'DuyDuy', 'Da Lat', 3, '1629160130', '1629160130'),
+(6, 'DTHANG', 'Vung Tau', 4, '1629160130', '1629160130'),
+(7, 'BBAO', 'Ha Noi', 12, '1629160130', '1629160130');
+
+
+
+INSERT INTO "Rentals" ("id", "Email", "EndDate", "StartDate", "fullName", "phoneL", "dropLocation", "pickLocation", "pay", "owner_id", "car_id", "createdAt", "updatedAt") VALUES
+(12, 'aaa@gmail.com', '2022-06-09T17:00:00.000Z', '2022-06-06T17:00:00.000Z', 'chien', '012314141145', 'HN', 'SD', 264, '1', '3', '1629160130', '1629160130'),
+(15, 'Äƒdawda', '2022-06-07T17:00:00.000Z', '2022-06-05T17:00:00.000Z', 'dang minh', '0968994778', 'HN', 'SD', 132, '1', '1', '1629160130', '1629160130'),
+(16, 'Äƒdawda', '2022-06-07T17:00:00.000Z', '2022-06-05T17:00:00.000Z', 'dang minh', '0968994778', 'HN', 'SD', 132, '1', '1', '1629160130', '1629160130'),
+(22, 'duy@gmail.com', '2022-06-24T17:00:00.000Z', '2022-06-05T17:00:00.000Z', 'Duy', '0913141566', 'HN', 'SD', 1254, '1', '1', '1629160130', '1629160130');
+
+
+
+
