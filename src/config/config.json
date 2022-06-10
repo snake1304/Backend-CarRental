@@ -1,24 +1,14 @@
 {
   "development": {
-    "username": "gvtwrizdcjgtun",
-    "password": "2f8b0c3118c39a00d5cbbb397f41643bb9c7963a7f79310623718220bf7be750",
-    "database": "d9abdq6ecp1u3k",
-    "host": "ec2-54-165-184-219.compute-1.amazonaws.com",
-    "dialect": "postgres",
-    "logging": false,
-    "query": {
-      "raw": true
-    },
-    "timezone": "+07.00",
-    "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
-    }
+    "username": "car_admin",
+    "password": "Qq123456789",
+    "database": "CarRental",
+    "host": "139.59.104.129",
+    "dialect": "mysql",
+    "logging": false
   },
   "test": {
-    "username": "root",
+    "username": "cars_admin",
     "password": null,
     "database": "database_test",
     "host": "127.0.0.1",
